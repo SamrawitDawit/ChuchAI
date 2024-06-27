@@ -1,0 +1,88 @@
+body {
+    background-image: url("../static/images/edu-bg.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.chat-wrapper {
+    width: 400px;  /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.chat-header {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 60px; /* Adjust the height as needed */
+}
+.chat-header img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: auto;
+    padding: 10px;
+}
+.input-container {
+    display: flex;
+    padding: 10px;
+    background-color: #F1F1F1;
+    border-top: 1px solid #CCC;
+}
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #CCC;
+}
+.input-container button {
+    padding: 10px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.input-container button:hover {
+    background-color: #0056b3;
+}
+.messages {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    background-color: #E1FFC7;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    align-self: flex-start;
+}
+.message.user {
+    align-self: flex-end;
+    background-color: #007BFF;
+    color: white;
+}

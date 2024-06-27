@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChuchAI</title>
+    <link rel="stylesheet" href="../static/chat_style.css">
+</head>
+<body>
+    <div class="chat-wrapper">
+        <div class="chat-header">
+            <img src="../static/images/chat-bot.png" alt="">
+            <h2>ChuchAI</h2>
+        </div>
+        <div class="chat-container" id="chat-container">
+            <div class="messages" id="messages"></div>
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Type your message here...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src = "../static/script.js"></script>
+</body>
+</html>
