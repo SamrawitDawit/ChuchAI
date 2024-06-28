@@ -1,3 +1,4 @@
+ChuchAI
 
 ChuchAI is an educational chatbot designed to engage children in interactive learning sessions, improving their literacy and numeracy skills. This chatbot uses Natural Language Processing (NLP) techniques to offer two main features:
 
