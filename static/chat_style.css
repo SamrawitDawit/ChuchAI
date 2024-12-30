@@ -11,8 +11,8 @@ body {
     background-color: #f0f0f0;
 }
 .chat-wrapper {
-    width: 400px;  /* Adjust the width as needed */
-    height: 600px; /* Adjust the height as needed */
+    width: 400px;  
+    height: 600px; 
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -26,11 +26,11 @@ body {
     padding: 10px;
     display: flex;
     align-items: center;
-    height: 60px; /* Adjust the height as needed */
+    height: 60px; 
 }
 .chat-header img {
-    width: 50px; /* Adjust the size as needed */
-    height: 50px; /* Adjust the size as needed */
+    width: 50px; 
+    height: 50px; 
     border-radius: 50%;
     margin-right: 10px;
 }
